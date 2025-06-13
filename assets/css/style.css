@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--main-font);
+}
+
+@font-face {
+    font-family: "NAURYZREDKEDS";
+    src: url("../font/NAURYZREDKEDS.ttf");
+}
+
+:root{
+    --main-font: "DM Sans", sans-serif;
+    --secundary-font: "NAURYZREDKEDS", sans-serif;
+}
+
+body{
+    background-color: #eee;
+    font-family: var(--main-font);
+}
+
+.content{
+    margin: 10px auto;
+    border-radius: 1rem;
+    color: #dd95dd;
+    text-align: center;
+    width: 450px;
+}
+
+.banner-iu{
+    height: 8rem;
+    background: #fff url("../img/iu-banner.jpeg") no-repeat 90% 30%;
+    background-size: cover;
+    border-radius: 1rem;
+}
+
+.song-iu{
+    padding: 1rem;
+    margin: 1rem 0;
+    border: thin solid #eecdfb;
+    border-radius: 1rem;
+}
+
+h1{
+    font-family: var(--secundary-font);
+    font-weight: 700;
+}
+
+#song{
+    margin: 1.5rem 0 0 0;
+}
+
+.button-iu{
+    padding: .5rem 1rem;
+    cursor: pointer;
+    background-color: #e9c1f2;
+    border-radius: 1rem;
+    border: none;
+    font-size: 13px;
+}
+
+.rewind{
+    cursor: pointer;
+    text-align: center;
+    color: #e19de1;
+    display: none;
+}
+
+.footer-iu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+    padding: 1.5rem;
+    background-color: #e9c1f2;
+    border-radius: .5rem;
+}
+
+.footer-iu ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+.footer-iu a{
+    color: #fff;
+}
