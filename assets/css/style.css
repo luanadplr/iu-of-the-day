@@ -60,6 +60,36 @@ h1{
     font-size: 13px;
 }
 
+.song-info--div{
+    margin: 0 0 1rem 0;
+    display: flex;
+    gap: 5px;
+    font-size: 12px;
+}
+
+.song-info{
+    padding: .25rem 10px;
+    max-width: 50%;
+    border: thin solid #eecdfb;
+    border-radius: 1rem;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.song-title{
+    text-overflow: ellipsis;
+}
+
+.song-link{
+    background-color: #e9c1f2;
+    border: none;
+}
+
+.song-link a{
+    text-decoration: none;
+    color: #000;
+}
+
 .rewind{
     cursor: pointer;
     text-align: center;
@@ -74,7 +104,7 @@ h1{
     height: 2rem;
     padding: 1.5rem;
     background-color: #e9c1f2;
-    border-radius: .5rem;
+    border-radius: 1rem;
 }
 
 .footer-iu ul{
