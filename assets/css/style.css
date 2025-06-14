@@ -95,6 +95,11 @@ h1{
     text-align: center;
     color: #e19de1;
     display: none;
+    font-size: 13px;
+}
+
+i{
+    margin-right: 5px;
 }
 
 .footer-iu{
